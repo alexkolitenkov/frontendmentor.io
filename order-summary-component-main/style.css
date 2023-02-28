@@ -1,0 +1,187 @@
+/* Custom Variables */
+:root {
+    /* Layout */
+    --mobile-width: 375px;
+    --desktop-width: 1440px;
+
+    /* Colors */
+    --color-primary-pale-blue: hsl(225, 100%, 94%);
+    --color-primary-bright-blue: hsl(245, 75%, 52%);
+    --color-neutral-very-pale-blue: hsl(225, 100%, 98%);
+    --color-neutral-desaturated-blue: hsl(224, 23%, 55%);
+    --color-neutral-dark-blue: hsl(223, 47%, 23%);
+
+    /* Typography */
+    --font-size-100: 1rem;
+    --font-family: 'Red Hat Display', sans-serif;
+    --font-weight-500: 500;
+    --font-weight-700: 700;
+    --font-weight-900: 900;
+}
+
+/* Minimal Reset */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* General styling */
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: var(--font-family);
+    background:
+        url(images/pattern-background-desktop.svg) top repeat-x,
+        var(--color-primary-pale-blue);
+}
+
+/* Card Mobile */
+.wrapper {
+    height: 100%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    width: 24rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    filter: drop-shadow(0px 7px 13px hsla(225, 100%, 87%, 1));
+}
+
+.card-img > img {
+    display: block;
+    width: 100%;
+}
+
+.card-block {
+    padding: 2.5rem;
+}
+
+.card-block > h1 {
+    margin-block: 0 1rem;
+    font-size: 1.25rem;
+    font-weight: var(--font-weight-900);
+    color: var(--color-neutral-dark-blue);
+}
+
+.card-block > p {
+    font-size: 0.9rem;
+    color: var(--color-neutral-desaturated-blue);
+    line-height: 1.5;
+}
+
+.card-plan {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    margin-block-start: 1.25rem;
+    background-color: var(--color-neutral-very-pale-blue);
+}
+
+.card-plan-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.card-plan-heading {
+    font-size: 0.8rem;
+    color: var(--color-neutral-dark-blue);
+    font-weight: var(--font-weight-900);
+}
+
+.card-plan-fee {
+    font-size: 0.8rem;
+    color: var(--color-neutral-desaturated-blue);
+}
+
+.card-plan-change{
+    color: var(--color-primary-bright-blue);
+    font-size: 0.8rem;
+    font-weight: var(--font-weight-900);
+    text-decoration: underline;
+}
+.card-plan-change:where(:hover, :focus) {
+    cursor: pointer;
+    text-decoration: none;
+    color: hsl(249, 75%, 62%);
+}
+
+.card button {
+    display: block;
+    width: 100%;
+    border: 0;
+    margin-block: 1.5rem;
+    background-color: var(--color-primary-bright-blue);
+    color: var(--color-primary-pale-blue);
+    font-family: inherit;
+    font-weight: var(--font-weight-900);
+    padding: 1rem;
+    border-radius: 0.9rem;
+    cursor: pointer;
+    box-shadow: 0px 15px 16px hsl(249, 75%, 90%);
+}
+
+.card button:where(:hover, :focus) {
+    background-color: hsl(249, 75%, 62%);
+}
+
+.card-cancel {
+    display: inline;
+    font-size: 0.9rem;
+    font-weight: var(--font-weight-900);
+    color: var(--color-neutral-desaturated-blue);
+}
+
+.card-cancel:hover {
+    color: var(--color-neutral-dark-blue);
+    cursor: pointer;
+}
+
+/* Card Desktop */

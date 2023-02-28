@@ -1,0 +1,94 @@
+/**Custom variables */
+:root {
+    --small-size: 375px;
+    --large-size: 1440px;
+    
+    --clr-100: hsl(0, 0%, 100%);
+    --clr-300: hsl(212, 45%, 89%);
+    --clr-500: hsl(220, 15%, 55%);
+    --clr-700: hsl(218, 44%, 22%);
+
+    --fs-100: 1rem;
+    --ff-sans-serif: 'Outfit', sans-serif;
+
+    --fw-400: 400;
+    --fw-700: 700;
+}
+
+/* Minimal reset */
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+/* General styiling */
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: var(--ff-sans-serif);
+    font-size: var(--fs-100);
+    font-weight: var(--fw-400);
+    background-color: var(--clr-300);
+}
+
+.wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    max-width: var(--large-size);
+    margin: auto;
+}
+
+/* Card mobile*/
+.card {
+    border-radius: 1rem;
+    background-color: var(--clr-100);
+    padding: 1rem;
+    max-width: 320px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0px 5px 3px 3px rgba(0,0,0,0.5);
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.card-title {
+    font-weight: var(--fw-700);
+    padding-block-start: 1rem;
+    color: var(--clr-700);
+}
+
+.card-info {
+    padding: 1rem;
+    color: var(--clr-500);
+}
+
+/* Card Desktop */

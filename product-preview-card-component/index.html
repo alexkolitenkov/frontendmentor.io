@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Product preview card component</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="bg-primary-200">
+  <div class="wrapper">
+    <div class="content bg-primary-100 w50p">
+      <div class="image-flex">
+        <img src="images/image-product-mobile.jpg" class="w100p mobile" alt="perfume-photo-mobile">
+        <img src="images/image-product-desktop.jpg" class="w100p desktop" alt="perfume-photo-desktop">
+
+      </div>
+      <div class="p-200 mobile-content">
+        <h5 class="ff-sans-serif font-size-90 uppercase wide-spacing">Perfume</h5>
+
+        <h2 class="ff-serif font-size-200 mobile-product-name">Gabrielle Essence Eau De Parfum</h2>
+
+        <p class="ff-sans-serif lh-150 mobile-desc">
+          A floral, solar and voluptuous interpretation composed by Olivier Polge,
+          Perfumer-Creator for the House of CHANEL.
+        </p>
+
+
+        <div class="amount-price">
+          <data class="amount fw-700 ff-serif primary-color-100 actual" value="149.99">
+            $149.99</data>
+
+          <data class="amount ff-sans-serif initial" value="169.99">
+            $169.99</data>
+        </div>
+
+        <div class="add-to-cart">
+          <button class="button">
+            <span>
+              <svg class="icon">
+                <use xlink:href="images/icon-cart.svg#icon-cart"></use>
+              </svg>
+            </span>
+           <span>Add to Cart</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

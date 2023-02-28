@@ -1,0 +1,12 @@
+@mixin for-mobile {
+    @media only screen and (min-width: 30em) {
+    @content;
+    }
+}
+  
+@mixin for-desktop {
+    @media only screen and (min-width: 50em) {
+        @content;
+    }
+}
+

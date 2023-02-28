@@ -1,0 +1,131 @@
+@use '../base/base' as *;
+
+.primary-color-100 {
+  color: $primary-color-100;
+}
+
+.primary-color-200 {
+  color: $primary-color-200;
+}
+
+.neutral-color-900 {
+  color: $neutral-color-900;
+}
+
+.neutral-color-600 {
+  color: $neutral-color-600;
+}
+
+.neutral-color-100 {
+  color: $neutral-color-100;
+}
+
+.bg-primary-200 {
+  background-color: $bg-primary-200;
+}
+
+.bg-primary-100 {
+  background-color: $bg-primary-100;
+}
+
+.font-size-90 {
+  font-size: $font-size-90;
+}
+
+.font-size-100 {
+  font-size: 1rem;
+}
+
+.font-size-200 {
+  font-size: 2rem;
+}
+
+.font-size-300 {
+    font-size: 3rem;
+}
+
+.ff-serif {
+  font-family: $ff-serif;
+}
+
+.ff-sans-serif {
+  font-family: $ff-sans-serif;
+}
+
+.fw-500 {
+  font-weight: $fw-500;
+}
+
+.fw-700 {
+  font-weight: $fw-700;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.wide-spacing {
+    letter-spacing: 0.25rem;
+}
+
+.p-100 {
+    padding: 1rem;
+}
+
+.p-150 {
+    padding: 1.5rem;
+}
+
+.p-200 {
+    padding: 2rem;
+}
+
+.pbs-100 {
+    padding-block-start: 1rem;
+}
+
+.pbe-100 {
+    padding-block-end: 1rem;
+}
+
+.pbs-200 {
+    padding-block-start: 2rem;
+}
+
+.pbe-200 {
+    padding-block-end: 2rem;
+}
+
+.max-w-xs {
+  max-width: 20rem; /* 320px */
+}
+.max-w-md {	
+  max-width: 28rem; /* 448px */
+}
+
+.w100p {
+  width: 100%;
+}
+.w50p {
+  width: 50%;
+}
+
+.w25p {
+  width: 25%;
+}
+
+.w333p {
+  width: 33.3%;
+}
+
+.w666p {
+  width: 66.6%;
+}
+
+.w75p {
+  width: 75%;
+}
+
+.lh-150 {
+  line-height: 1.5;
+}
