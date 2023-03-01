@@ -2,7 +2,7 @@ let projects = [
     {
         title: "Product preview card component",
         src: "product-preview-card-component-main",
-        url: "https://frenmentor.netlify.app/product-preview-card-component-main/index.html"
+        url: "https://fem-perfume-product-card.netlify.app/"
     },
     {
         title: "NFT preview card component",
@@ -32,7 +32,7 @@ let projects = [
     {
         title: "Interactive rating component",
         src: "interactive-rating-component-main",
-        url: "https://frenmentor.netlify.app/intro-component-with-signup-form-master/index.html"
+        url: "https://frenmentor.netlify.app/interactive-rating-component-main/index.html"
     },
     {
         title: "Results summary component",
