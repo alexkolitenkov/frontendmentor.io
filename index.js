@@ -37,7 +37,7 @@ let projects = [
     {
         title: "Results summary component",
         src: "results-summary-component-main",
-        url: "https://frenmentor.netlify.app/results-summary-component-main/index.html"
+        url: ""
     },
 ]
 
