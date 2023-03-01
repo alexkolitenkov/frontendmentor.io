@@ -27,12 +27,12 @@ let projects = [
     {
         title: "Base Apparel coming soon page",
         src: "base-apparel-coming-soon-master",
-        url: "https://frenmentor.netlify.app/base-apparel-coming-soon-master/index.html"
+        url: "https://base-apparel-main.netlify.app/"
     },
     {
         title: "Interactive rating component",
         src: "interactive-rating-component-main",
-        url: "https://frenmentor.netlify.app/interactive-rating-component-main/index.html"
+        url: "https://primary-rating-component.netlify.app/"
     },
     {
         title: "Results summary component",
