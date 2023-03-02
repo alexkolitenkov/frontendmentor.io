@@ -1,3 +1,0 @@
-[build]
-  base = "./"
-  ignore = "./netlify-build-ignore.sh"
