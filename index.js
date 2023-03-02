@@ -22,7 +22,7 @@ let projects = [
     {
         title: "QR code component",
         src: "qr-code-component-main",
-        url: ""
+        url: "mnknklnlk"
     },
     {
         title: "Base Apparel coming soon page",

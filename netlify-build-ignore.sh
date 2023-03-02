@@ -1,2 +1,2 @@
 #!/bin/sh
-git diff --quiet HEAD^ HEAD frontendmentorio/$SITE
+git diff --quiet HEAD^ HEAD frontendmentor.io/$SITE
