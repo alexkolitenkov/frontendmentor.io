@@ -22,7 +22,7 @@ let projects = [
     {
         title: "QR code component",
         src: "qr-code-component-main",
-        url: "https://frenmentor.netlify.app/qr-code-component-main/index.html"
+        url: ""
     },
     {
         title: "Base Apparel coming soon page",
