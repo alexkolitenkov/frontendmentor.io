@@ -7,9 +7,9 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
 
 ## Overview
 
@@ -30,6 +30,10 @@ Users should be able to:
 ![](./result_screenshots/mobile_screenshot.png)
 ![](./result_screenshots/mobile_screenshot-thank-you.png)
 
+### Links
+
+- Solution URL: (https://www.frontendmentor.io/solutions/interactive-rating-component-SmfPR3u4H7)
+- Live Site URL: (https://primary-rating-component.netlify.app/)
 
 ## My process
 
@@ -41,7 +45,4 @@ Users should be able to:
 - Vanilla JS
 - Flexbox
 
-### What I learned
-
-In this challenge, I used a classic Frontend stack:  HTML5, CSS3, and JS with a few advanced features such as CSS custom properties and Flexbox layout. I used the :root CSS pseudo-class to set my base styles, such as typography, colors, border-radius, etc. But the most interesting thing which I'm not very proud of that I used these custom variables for modifying pseudo-element with JS, because I didn't know that pseudo-elements are not considered parts of a DOM, so you can't directly manipulate them using API methods, so instead of changing my HTML layout I continued playing with my JavaScript, yet I glad that this worked out for me in this case.
 

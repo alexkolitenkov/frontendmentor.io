@@ -6,6 +6,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
 
@@ -15,6 +16,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ![](./result_screenshots/desktop_screenshot.png)
 ![](./result_screenshots/mobile_screenshot.png)
+
+### Links
+
+- Solution URL: (https://www.frontendmentor.io/solutions/simple-mobilefirst-qr-card-component-pure-csshtml-jV2w0RbKs2)
+- Live Site URL: (https://fem-qr-component.netlify.app)
 
 ## My process
 

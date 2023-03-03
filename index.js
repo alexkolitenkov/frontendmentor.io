@@ -2,42 +2,42 @@ let projects = [
     {
         title: "Product preview card component",
         src: "product-preview-card-component-main",
-        url: "https://fem-perfume-product-card.netlify.app/"
+        url: "https://fem-perfume-product-card.netlify.app"
     },
     {
         title: "NFT preview card component",
         src: "nft-preview-card-component-main",
-        url: "https://frenmentor.netlify.app/nft-preview-card-component-main/index.html"
+        url: "https://fem-nft-card-component.netlify.app"
     },
     {
         title: "Profile card component",
         src: "profile-card-component-main",
-        url: "https://frenmentor.netlify.app/profile-card-component-main/index.html"
+        url: "https://fem-profilecard-component.netlify.app"
     },
     {
         title: "Order summary component",
         src: "order-summary-component-main",
-        url: "https://frenmentor.netlify.app/order-summary-component-main/index.html"
+        url: "https://order-summary-component-f-e-m.netlify.app"
     },
     {
         title: "QR code component",
         src: "qr-code-component-main",
-        url: ""
+        url: "https://fem-qr-component.netlify.app"
     },
     {
         title: "Base Apparel coming soon page",
         src: "base-apparel-coming-soon-master",
-        url: "https://base-apparel-main.netlify.app/"
+        url: "https://base-apparel-main.netlify.app"
     },
     {
         title: "Interactive rating component",
         src: "interactive-rating-component-main",
-        url: "https://primary-rating-component.netlify.app/"
+        url: "https://primary-rating-component.netlify.app"
     },
     {
         title: "Results summary component",
         src: "results-summary-component-main",
-        url: ""
+        url: "https://fem-results-summary.netlify.app"
     },
 ]
 

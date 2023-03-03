@@ -6,6 +6,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
 
@@ -19,6 +20,11 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ![](./images/desktop_screenshot.png)
 ![](./images/mobile_screenshot.png)
+
+### Links
+
+- Solution URL: (https://www.frontendmentor.io/solutions/profile-card-component-with-basic-htmlcss-f8X6GWASt0)
+- Live Site URL: (https://fem-profilecard-component.netlify.app)
 
 ## My process
 

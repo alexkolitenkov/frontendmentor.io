@@ -7,6 +7,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
 
@@ -23,6 +24,11 @@ Users should be able to:
 
 ![](./images/desktop_screenshot.png)
 ![](./images/mobile_screenshot.png)
+
+### Links
+
+- Solution URL: (https://www.frontendmentor.io/solutions/nft-preview-card-component-with-basic-htmlcss-Zc3epMjTjG)
+- Live Site URL: (https://fem-nft-card-component.netlify.app)
 
 ## My process
 
