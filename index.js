@@ -59,7 +59,7 @@ projects.forEach(project => {
     let h5 = createTag('h5', 'mb-3 card-title');
     h5.textContent = project.title;
 
-    let view = createTag('a');
+    let view = createTag('a', 'anchor');
     view.href = project.url;
     view.innerHTML = '<button class="btn btn-info">View</button>'
     cardBody.append(h5, view)

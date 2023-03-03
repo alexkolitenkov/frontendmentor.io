@@ -48,6 +48,10 @@ h1 {
     border-radius: 0.25rem;
 }
 
+.anchor {
+    display: inline-block;
+}
+
 .card-body {
     flex: 1 1 auto;
     padding: 1rem;
