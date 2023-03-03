@@ -1,7 +1,7 @@
 let projects = [
     {
         title: "Product preview card component",
-        src: "product-preview-card-component-main",
+        src: "product-preview-card-component",
         url: "https://fem-perfume-product-card.netlify.app"
     },
     {
