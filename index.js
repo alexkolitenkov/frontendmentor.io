@@ -42,7 +42,7 @@ let projects = [
     {
         title: "Stats preview card component",
         src: "stats-preview-card-component-main",
-        url: ""
+        url: "https://main-stats-preview-component.netlify.app/"
     },
 ]
 
