@@ -39,6 +39,11 @@ let projects = [
         src: "results-summary-component-main",
         url: "https://fem-results-summary.netlify.app"
     },
+    {
+        title: "Stats preview card component",
+        src: "stats-preview-card-component-main",
+        url: ""
+    },
 ]
 
 let row = document.querySelector('.row');
