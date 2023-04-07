@@ -46,8 +46,8 @@ let projects = [
     },
     {
         title: "3-column preview card component",
-        src: "stats-preview-card-component-main",
-        url: ""
+        src: "3-column-preview-card-component-main",
+        url: "https://multicolumn-preview-card.netlify.app/"
     },
 ]
 
