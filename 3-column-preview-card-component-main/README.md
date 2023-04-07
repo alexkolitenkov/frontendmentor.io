@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub)
-- Live Site URL: [Add live site URL here](https://multicolumn-preview-card.netlify.app/)
+- Solution URL: [Solution](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub)
+- Live Site URL: [Live Site](https://multicolumn-preview-card.netlify.app/)
 
 ## My process
 
