@@ -44,6 +44,11 @@ let projects = [
         src: "stats-preview-card-component-main",
         url: "https://main-stats-preview-component.netlify.app/"
     },
+    {
+        title: "3-column preview card component",
+        src: "stats-preview-card-component-main",
+        url: ""
+    },
 ]
 
 let row = document.querySelector('.row');
