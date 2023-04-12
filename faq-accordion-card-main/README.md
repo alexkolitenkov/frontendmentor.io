@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://www.example.com)
-- Live Site URL: [Live site](https://www.example.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/faq-accordion-card-with-basic-htmlcssjs-dMPREN5ZWV)
+- Live Site URL: [Live site](https://ak-faq-accordion-card.netlify.app/)
 
 ## My process
 

@@ -51,8 +51,8 @@ let projects = [
     },
     {
         title: "FAQ accordion card",
-        src: "",
-        url: ""
+        src: "faq-accordion-card-main",
+        url: "https://ak-faq-accordion-card.netlify.app/"
     },
 ]
 
