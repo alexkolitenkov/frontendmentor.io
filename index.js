@@ -49,6 +49,11 @@ let projects = [
         src: "3-column-preview-card-component-main",
         url: "https://multicolumn-preview-card.netlify.app/"
     },
+    {
+        title: "FAQ accordion card",
+        src: "",
+        url: ""
+    },
 ]
 
 let row = document.querySelector('.row');
