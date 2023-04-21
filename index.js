@@ -54,6 +54,11 @@ let projects = [
         src: "faq-accordion-card-main",
         url: "https://ak-faq-accordion-card.netlify.app/"
     },
+    {
+        title: "Social proof section",
+        src: "",
+        url: ""
+    }
 ]
 
 let row = document.querySelector('.row');
