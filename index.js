@@ -58,6 +58,11 @@ let projects = [
         title: "Social proof section",
         src: "social-proof-section-master",
         url: "https://ak-social-proof-section.netlify.app/"
+    },
+    {
+        title: "Article preview component",
+        src: "article-preview-component-master",
+        url: "https://ak-article-preview-component.netlify.app/"
     }
 ]
 

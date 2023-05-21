@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+/* Custom properties */
+:root {
+    --very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --desaturated-dark-blue: hsl(214, 17%, 51%);
+    --grayish-blue: hsl(212, 23%, 69%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
+
+    --fs-100: 0.75rem;
+    --fs-200: 1rem;
+    --fs-300: 1.5rem;
+    --fs-400: 2rem;
+    --fs-500: 2.75rem;
+
+    --fw-500: 500;
+    --fw-700: 700;
+    --ff-default: 'Manrope', sans-serif;
+}
+
+/* Minimal reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    font: inherit;
+}
+
+img,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* Mobile */
+body,
+html {
+    height: auto;
+}
+
+body {
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-grayish-blue);
+    font-family: var(--ff-default);
+}
+
+.card {
+    width: clamp(16rem, 90vw, 50rem);
+    margin: 3rem auto;
+    border-radius: var(--fs-100);
+    background-color: hsl(360, 100%, 100%);
+}
+
+.image {
+    max-height: 18rem;
+    overflow: hidden;
+    border-radius: var(--fs-100) var(--fs-100) 0 0;
+}
+
+.image img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    max-height: inherit;
+    object-position: 5% 10%;
+}
+
+.info-block {
+    position: relative;
+}
+
+.text {
+    padding: 2rem 1.9rem 2.5rem;
+}
+
+.text h1 {
+    font-size: clamp(1.1rem, 0.9239rem + 0.7512vw, 1.6rem);
+    font-weight: var(--fw-700);
+    color: var(--very-dark-grayish-blue);
+    padding-block-end: 1rem;
+}
+
+.text p {
+    font-size: clamp(0.813rem, 0.7472rem + 0.2809vw, 1rem);
+    color: var(--grayish-blue);
+    font-weight: var(--fw-500);
+    letter-spacing: 0.5px;
+}
+
+.author-share {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0 2rem 1rem;
+}
+
+.author {
+    visibility: visible;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.author img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100vw;
+}
+
+.name {
+    font-size: clamp(0.813rem, 0.7472rem + 0.2809vw, 1rem);
+    color: var(--very-dark-grayish-blue);
+    font-weight: var(--fw-700);
+}
+
+time {
+    font-size: clamp(0.813rem, 0.7472rem + 0.2809vw, 1rem);
+    color: var(--grayish-blue);
+}
+
+button {
+    background-color: var(--light-grayish-blue);
+    border: 0;
+    cursor: pointer;
+    padding: 0.75rem;
+    border-radius: 100vw;
+}
+
+.btn-tooltip {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    color: var(--grayish-blue);
+    letter-spacing: 5px;
+    align-items: center;
+    margin-inline: -2rem;
+    padding: 1.2rem 2rem;
+    justify-content: space-between;
+    background-color: transparent;
+    border-radius: 0 0 var(--fs-100) var(--fs-100);
+    transition: background-color 0.2s ease-out;
+}
+
+.tooltip {
+    visibility: hidden;
+    display: flex;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+}
+.tooltip p {
+    font-size: clamp(0.813rem, 0.7472rem + 0.2809vw, 1rem);
+}
+
+.tooltip-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    gap: 1rem;
+    padding: 0;
+}
+button:hover {
+    background-color: var(--desaturated-dark-blue);
+}
+
+button:hover svg path {
+    fill: var(--light-grayish-blue);
+}
+
+a:hover svg path {
+    fill: var(--grayish-blue);
+}
+
+@media screen and (min-width: 40rem) {
+    .card {
+        display: flex;
+    }
+
+    .image {
+        max-height: none;
+        flex: 0 1 40dvw;
+        border-radius: var(--fs-100) 0 0 var(--fs-100);
+    }
+
+    .info-block {
+        flex: 0 1 60dvw;
+    }
+
+    .btn-tooltip {
+        width: 16.1rem;
+        border-radius: var(--fs-100);
+        padding: 1.2rem 2rem;
+        z-index: 1;
+        bottom: 100%;
+        right: -2rem;
+        transform: translate(0, -25%);
+    }
+    button {
+        background-color: var(--light-grayish-blue);
+        border: 0;
+        cursor: pointer;
+        padding: 0.75rem;
+        border-radius: 100vw;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+    .tooltip::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin: -1px 0 0 -10px;
+        border-width: 10px;
+        border-style: solid;
+        border-color: var(--very-dark-grayish-blue) transparent transparent transparent;
+      }
+}
